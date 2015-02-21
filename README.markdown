@@ -1,7 +1,8 @@
 Request Headers
 ===============
 
-Basic server which reports the HTTP request headers it receives. Useful for testing load balancers or reverse proxies to ensure that you're setting the headers you want.
+Basic server which reports the HTTP request headers it receives.
+Useful for testing load balancers or reverse proxies to ensure that you're setting the headers you want.
 
 Usage
 -----
