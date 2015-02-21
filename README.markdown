@@ -1,7 +1,7 @@
 Request Headers
 ===============
 
-Basic server which reports the HTTP request headers it receives.
+Basic Go server which reports the HTTP request headers it receives.
 Useful for testing load balancers or reverse proxies to ensure that you're setting the headers you want.
 
 Usage
@@ -22,4 +22,11 @@ Accept: [*/*]
 Foo: [bar baz]
 Http-X-Foo: [example]
 User-Agent: [curl/7.37.1]
+```
+
+Installation
+------------
+
+```
+go install github.com/pbyrne/request-headers
 ```
